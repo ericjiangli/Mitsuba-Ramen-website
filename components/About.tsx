@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import syracuseImg from '../syracuse-location.png';
 
 const About = () => {
   const navigate = useNavigate();
@@ -79,16 +78,12 @@ const About = () => {
           <section className="pb-8">
             <div className="flex justify-between items-end mb-4">
               <h2 className="text-xl font-display font-bold text-primary">Visit Our Space</h2>
-              <span className="text-[10px] font-display uppercase tracking-widest text-gray-400 font-bold">2 Locations</span>
+              <span className="text-[10px] font-display uppercase tracking-widest text-gray-400 font-bold">1 Location</span>
             </div>
             <div className="flex gap-4 overflow-x-auto pb-4 -mx-2 px-2 snap-x no-scrollbar">
-              <div className="min-w-[260px] h-36 rounded-2xl bg-gray-200 snap-start overflow-hidden relative shadow-sm">
+              <div className="w-full h-36 rounded-2xl bg-gray-200 snap-start overflow-hidden relative shadow-sm">
                 <img alt="New Hartford Dining Hall" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9e9UuYynkDNhhS1Bd1aSyBxhOSGeHASjIR4P1sRezFUkBV7wzNPHKZM96n4OpYi1aeOe9gcAHCQVCbtxiof5Yaoje0ZyMIfDiTtuxD8JZd_o5n3DeXhOhkyiTqoXymdsngLBMTg6w-RS5E_do1dopU_5zma8Qi3bYPS9YhPlgJ_0xy2Ym3ZlZasU_PIn5S65G98YtKTldDd6iUAh0PWjht3WuFC4e4ievZwc-Mr23x1sSsB6gwanSF--myf3N-7VncQsMZ-MvoAzn" />
                 <div className="absolute bottom-3 left-3 bg-black/60 px-3 py-1 rounded-full text-[10px] text-white font-bold backdrop-blur-sm">New Hartford</div>
-              </div>
-              <div className="min-w-[260px] h-36 rounded-2xl bg-gray-200 snap-start overflow-hidden relative shadow-sm">
-                <img alt="Syracuse Dining Hall" className="w-full h-full object-cover" src={syracuseImg} />
-                <div className="absolute bottom-3 left-3 bg-black/60 px-3 py-1 rounded-full text-[10px] text-white font-bold backdrop-blur-sm">Syracuse</div>
               </div>
             </div>
           </section>

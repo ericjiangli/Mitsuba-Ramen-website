@@ -63,21 +63,6 @@ const Contact = () => {
                     Order Online
                   </a>
                 </div>
-
-                <div className="pt-6 border-t border-gray-200/50 dark:border-gray-700">
-                  <div className="flex justify-between items-start">
-                    <p className="text-[11px] text-gray-400 font-bold uppercase font-display mb-1">SYRACUSE</p>
-                    <span className="text-[8px] font-bold bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full uppercase tracking-wider font-body border border-gray-200">Phone Order Only</span>
-                  </div>
-                  <p className="text-gray-900 dark:text-gray-200 text-base leading-tight font-bold font-body">
-                    3206 Erie Blvd E,<br />
-                    Syracuse, NY 13214
-                  </p>
-                  <div className="flex items-center gap-1 mt-1.5">
-                    <span className="material-icons text-gray-400 text-sm">phone</span>
-                    <a href="tel:(315)373-0038" className="text-sm text-primary font-bold hover:underline">(315) 373-0038</a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
